@@ -18,12 +18,13 @@ public class reverseInt {
         int digit, reverse=0;
         @Override
         public void method(int number) {
+            int originalNum = number;
             while(number != 0) {
                 digit = number % 10;
                 reverse = (reverse * 10) + digit;
-                number = number / 10;
+                number /= 10;
             }
-            System.out.println(reverse);
+            System.out.println("The number "+ originalNum + " reversed is: " + reverse);
         }
     }
     public static void main(String[] args) {
