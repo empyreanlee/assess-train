@@ -2,6 +2,8 @@ package Threes;
 
 import java.util.List;
 
+//  Question 4
+
 //  Design a function that takes a list of integers as input. The function should
 //  return True if the list contains two consecutive threes (3 next to a 3) anywhere
 //  within the list. Otherwise, it should return False. For example, the function
@@ -21,7 +23,7 @@ public class consecutive3 {
         List<Integer> list = List.of(1,3,3,2,2,1);
         List<Integer> list2 = List.of(1,3,2,3,2,1);
         if (isConsecutive(list)) System.out.println("Consecutive 3s found");
-        else System.out.println("Not Consecutive 3s found");
+        else System.out.println("No Consecutive 3s found");
         if (isConsecutive(list2)) System.out.println("Consecutive 3s found");
         else System.out.println("No Consecutive 3s found");
     }

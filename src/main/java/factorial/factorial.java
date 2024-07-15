@@ -1,5 +1,6 @@
 package factorial;
 
+//    Question 2
 //    Write a recursive function to calculate the factorial of a number
 
 public class factorial {

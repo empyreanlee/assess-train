@@ -1,4 +1,5 @@
 package frequentChar;
+//   Question 3
 
 //   Design a function that takes a string or sequence of characters as input and
 //   returns the character that appears most frequently.
@@ -25,7 +26,8 @@ public class mostFrequent {
         return mostfrequent;
     }
     public static void main(String[] args) {
-        char mostfrequent = recurrent("11122345");
-        System.out.println("The most Frequent char : " + mostfrequent);
+        String str = "11122345";
+        char mostfrequent = recurrent(str);
+        System.out.println("The most Frequent charin '" + str + "' is: " + mostfrequent);
     }
 }
