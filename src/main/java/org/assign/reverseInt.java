@@ -5,23 +5,23 @@ package org.assign;
 
 interface IntToString{
     void method(int number);
-    String secondMethod(int number);
+    //String secondMethod(int number);
 }
 public class reverseInt {
-    static class solution implements IntToString{
+     static class solution implements IntToString{
         int number;
-        public String secondMethod(int number){
+        /**public String secondMethod(int number){
             StringBuilder str = new StringBuilder(String.valueOf(number));
             str.reverse();
             return str.toString();
-        }
-        int digit, reverse=0;
+        }**/
+        int mod, reverse=0;
         @Override
         public void method(int number) {
             int originalNum = number;
             while(number != 0) {
-                digit = number % 10;
-                reverse = (reverse * 10) + digit;
+                mod = number % 10;
+                reverse = (reverse * 10) + mod;
                 number /= 10;
             }
             System.out.println("The number "+ originalNum + " reversed is: " + reverse);
@@ -29,8 +29,7 @@ public class reverseInt {
     }
     public static void main(String[] args) {
         solution obj = new solution();
-        obj.number = 50;
-        System.out.println(obj.secondMethod(obj.number));
+        obj.number = -50;
         obj.method(obj.number);
     }
 }

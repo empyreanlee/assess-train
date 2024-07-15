@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eba937-d431-42ab-bfc0-03f48c4e7772" name="Changes" comment="consecutive">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MasterYoda/unoReverse.java" afterDir="false" />
+    <list default="true" id="e3eba937-d431-42ab-bfc0-03f48c4e7772" name="Changes" comment="updates">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MasterYoda/YodaReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Threes/consecutive3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Threes/consecutive3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/frequentChar/mostFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frequentChar/mostFrequent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pangram/Pangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pangram/Pangram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MasterYoda/unoReverse.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Main.executor": "Run",
     "Application.Pangram.executor": "Run",
+    "Application.YodaReverse.executor": "Run",
     "Application._pangram.executor": "Run",
     "Application.consecutive3.executor": "Run",
     "Application.convertInt.executor": "Run",
@@ -117,7 +116,7 @@
       <workItem from="1720791225314" duration="16000" />
       <workItem from="1720858191273" duration="16172000" />
       <workItem from="1720977572014" duration="6742000" />
-      <workItem from="1721028185265" duration="11408000" />
+      <workItem from="1721028185265" duration="15447000" />
     </task>
     <task id="LOCAL-00001" summary="reverse">
       <option name="closed" value="true" />
@@ -167,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721037498887</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updates">
+      <option name="closed" value="true" />
+      <created>1721040636766</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1721040636766</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +186,7 @@
     <MESSAGE value="pangram" />
     <MESSAGE value="directories" />
     <MESSAGE value="consecutive" />
-    <option name="LAST_COMMIT_MESSAGE" value="consecutive" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>
