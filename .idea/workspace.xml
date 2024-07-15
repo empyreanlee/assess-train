@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eba937-d431-42ab-bfc0-03f48c4e7772" name="Changes" comment="reverse + 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pangram/Pangram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+    <list default="true" id="e3eba937-d431-42ab-bfc0-03f48c4e7772" name="Changes" comment="directories">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Threes/consecutive3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pangram/Pangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pangram/Pangram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,7 @@
     "Application.Main.executor": "Run",
     "Application.Pangram.executor": "Run",
     "Application._pangram.executor": "Run",
+    "Application.consecutive3.executor": "Run",
     "Application.convertInt.executor": "Run",
     "Application.factorial.executor": "Run",
     "Application.mostFrequent.executor": "Run",
@@ -56,6 +57,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
   }
@@ -66,7 +68,7 @@
       <module name="Assessment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.assign.*" />
+          <option name="PATTERN" value="factorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,7 +81,7 @@
       <module name="Assessment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.assign.*" />
+          <option name="PATTERN" value="factorial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,8 +91,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.reverseInt" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.reverseInt" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +114,8 @@
       <updated>1720791223255</updated>
       <workItem from="1720791225314" duration="16000" />
       <workItem from="1720858191273" duration="16172000" />
-      <workItem from="1720977572014" duration="6311000" />
+      <workItem from="1720977572014" duration="6742000" />
+      <workItem from="1721028185265" duration="8610000" />
     </task>
     <task id="LOCAL-00001" summary="reverse">
       <option name="closed" value="true" />
@@ -138,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720878397988</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pangram">
+      <option name="closed" value="true" />
+      <created>1720994862952</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720994862952</updated>
+    </task>
+    <task id="LOCAL-00005" summary="directories">
+      <option name="closed" value="true" />
+      <created>1721028658379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721028658379</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +166,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reverse" />
     <MESSAGE value="reverse + 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse + 2" />
+    <MESSAGE value="pangram" />
+    <MESSAGE value="directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="directories" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package org.assign;
+package frequentChar;
 
 //   Design a function that takes a string or sequence of characters as input and
 //   returns the character that appears most frequently.

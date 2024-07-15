@@ -1,4 +1,4 @@
-package org.assign;
+package factorial;
 
 //    Write a recursive function to calculate the factorial of a number
 
