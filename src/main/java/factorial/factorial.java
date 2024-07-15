@@ -14,6 +14,5 @@ public class factorial {
             int number = 5;
             int fact = calculateFactorial(5);
             System.out.println("The factorial of "+ number + " is " + fact);
-
     }
 }

@@ -9,23 +9,23 @@ import java.util.HashMap;
 
 public class mostFrequent {
     String str;
-    public void recurrent(String str){
+    public static char recurrent(String str){
         int count = 0;
-        char answer = 0;
+        char mostfrequent = ' ';
         HashMap<Character, Integer> map = new HashMap<>();
-        for (int i=0;i<str.length();i++){
+        for (int i=0;i<str.length()-1;i++){
             char c = str.charAt(i);
             map.put(c, map.getOrDefault(c,0)+1);
 
             if(count < map.get(c)){
-                answer = c;
+                mostfrequent = c;
                 count = map.get(c);
             }
         }
-        System.out.println("The most Frequent char : "+ answer);
+        return mostfrequent;
     }
     public static void main(String[] args) {
-        mostFrequent most = new mostFrequent();
-        most.recurrent("11122345");
+        char mostfrequent = recurrent("11122345");
+        System.out.println("The most Frequent char : " + mostfrequent);
     }
 }

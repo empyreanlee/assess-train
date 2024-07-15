@@ -17,28 +17,12 @@ public class consecutive3 {
         }
         return false;
     }
-    /**public static boolean consecutive(int[] a, int n){
-        for(int i=0; i<n-1; i++){
-            if(a[i] == a[i+1] && a[i] == 3) {
-                return true;
-            }
-        }
-        return false;
-    }**/
-
     public static void main(String[] args) {
-        /** int[] a = {1,2,3,3,5,3,3,8,9};
-        int n = a.length;
-        if (consecutive(a,n)) System.out.println("Consecutive 3 found");
-        else System.out.println("No consecutive 3 found");
-         **/
         List<Integer> list = List.of(1,3,3,2,2,1);
         List<Integer> list2 = List.of(1,3,2,3,2,1);
         if (isConsecutive(list)) System.out.println("Consecutive 3s found");
         else System.out.println("Not Consecutive 3s found");
         if (isConsecutive(list2)) System.out.println("Consecutive 3s found");
         else System.out.println("No Consecutive 3s found");
-
-
     }
 }

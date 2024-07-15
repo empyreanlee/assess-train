@@ -1,41 +1,37 @@
 package pangram;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Scanner;
 
+//   Design a function that determines whether a given string is a pangram. A
+//pangram is a sentence or phrase containing every letter of the alphabet at
+//least once. Punctuation and case are typically ignored. For example, the
+//string "The quick brown fox jumps over the lazy dog" is a pangram, while
+//"Hello, world!" is not.
+
 public class Pangram {
-    int count;
-    Scanner scanner;
-    public boolean pangram(String alphabet, String str) {
+    public static boolean pangram(String str) {
 
-        str = str.replaceAll("\\s+","").toLowerCase();
+        str = str.replaceAll("\\s+", "").toLowerCase();
         HashMap<Character, Integer> map = new HashMap<>();
-        for(int i =0; i<str.length();i++){
-            char ch = str.charAt(i);
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
+        HashSet<Character> chars = new HashSet<>();
+        for (char c : str.toCharArray()) {
+            if (Character.isLetter(c)) chars.add(c);
         }
-        for (int i = 0; i <alphabet.length(); i++ ){
-            char ch = alphabet.charAt(i);
-            if(!map.containsKey(ch)) return false;
-        }
-        return true;
+        return chars.size() == 26;
     }
-
-        public static void main(String[] args) {
-        String alpha = "abcdefghijklmnopqrstuvwxyz";
+    public static void main(String[] args) {
+        //String alpha = "abcdefghijklmnopqrstuvwxyz";
         String quest = "The quick brown fox jumps over the lazy dog";
-        Pangram p = new Pangram();
-        if(p.pangram(alpha, quest)) System.out.println("String \"" + quest + " is a Pangram");
+        if(pangram(quest)) System.out.println("String \"" + quest + " is a Pangram");
         else System.out.println("String \"" + quest + " is not a Pangram \"");
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter an a example: ");
         //   Example  "When zombies arrive quickly fax judge pat"
         String isPangram = scanner.nextLine();
-        if(p.pangram(alpha, isPangram)) System.out.println("String \"" + isPangram + " is a Pangram");
+        if(pangram(isPangram)) System.out.println("String \"" + isPangram + " is a Pangram");
         else System.out.println("String \"" + isPangram + " is not a Pangram");
-
-
-
         }
 }

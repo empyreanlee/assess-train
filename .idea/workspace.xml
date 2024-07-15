@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3eba937-d431-42ab-bfc0-03f48c4e7772" name="Changes" comment="directories">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Threes/consecutive3.java" afterDir="false" />
+    <list default="true" id="e3eba937-d431-42ab-bfc0-03f48c4e7772" name="Changes" comment="consecutive">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MasterYoda/unoReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Threes/consecutive3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Threes/consecutive3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/frequentChar/mostFrequent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/frequentChar/mostFrequent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pangram/Pangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pangram/Pangram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +117,7 @@
       <workItem from="1720791225314" duration="16000" />
       <workItem from="1720858191273" duration="16172000" />
       <workItem from="1720977572014" duration="6742000" />
-      <workItem from="1721028185265" duration="8610000" />
+      <workItem from="1721028185265" duration="11408000" />
     </task>
     <task id="LOCAL-00001" summary="reverse">
       <option name="closed" value="true" />
@@ -157,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721028658379</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="consecutive">
+      <option name="closed" value="true" />
+      <created>1721037498887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721037498887</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +178,7 @@
     <MESSAGE value="reverse + 2" />
     <MESSAGE value="pangram" />
     <MESSAGE value="directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="directories" />
+    <MESSAGE value="consecutive" />
+    <option name="LAST_COMMIT_MESSAGE" value="consecutive" />
   </component>
 </project>
